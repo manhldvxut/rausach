@@ -1,0 +1,144 @@
+<?php
+
+include_once $_SERVER['DOCUMENT_ROOT'].'/src/inc/global-config.php';
+//下記のパス「demo」を変更
+include_once $_SERVER['DOCUMENT_ROOT'].'/src/inc/config.php';
+
+//ページ用の変数
+$page_title = 'Sample page';
+$page_description = '';
+$page_keywords = '';
+$page_shareurl = 'https://'.STORE_NAME.'.co.jp/'; 
+
+?>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+<!-- meta -->
+<?php include_once $_SERVER['DOCUMENT_ROOT'].'/'.DIRNAME.'/src/inc/meta.php';?>
+
+<!-- link css -->
+<?php include_once $_SERVER['DOCUMENT_ROOT'].'/'.DIRNAME.'/src/inc/css.php';?>
+
+</head>
+
+<body class="<?php echo STORE_NAME; ?>">
+
+<div class="wrapper" id="data">
+
+<?php
+/**
+ * Header
+ */
+?>
+
+<?php include_once $_SERVER['DOCUMENT_ROOT'].'/src/inc/header.php'; ?>
+
+
+<?php
+/**
+ * Main contents
+ */
+?>
+
+<main class="main-contents">
+	<div class="page-content">
+		<div class="bg-head">
+			<div class="container">
+				<h1>Về LUDALA !!!</h1>
+			</div>
+		</div>
+		<div class="container rando__movie">
+			<div class="rando__movie-body">
+				<img src="/assets/images/thumb.jpg" alt="">
+				<button type="button" class="btn-movie" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+					<span><img src="/assets/images/btn.svg" alt=""></span>
+					Xem Video
+				</button>
+
+				<div id="staticBackdrop" class="youtube modal fade" tabindex="-1" aria-labelledby="staticBackdrop" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header--">
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/CxrI1qZmtEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about-info">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="about-item">
+							<h3>Chúng Tôi Là Đại Lý Chính Thức Của Công Ty TNHH Đà Lạt Xanh VN</h3>
+							<p>Ludala – món ngon Đà Lạt. Chúng tôi là nhà hàng chuyên cung cấp món ăn, sản phẩm, đặc sản Đà Lạt chất lượng cao tại TP. Vinh. 
+								<br>Được cấp giấy chứng nhận đại lí và giấy chứng nhận an toàn thực phẩm của công ty TNHH Đà Lạt Xanh VN.</p>
+							<p>
+								<b>Địa chỉ:</b> 30 Lê Hoàn, Hưng Phúc, Thành phố Vinh, Nghệ An.
+							</p>
+							<p><b>SĐT: </b>+84 357 355 288</p>
+						</div>
+						<div class="chungchi">
+							<h3>Chúng tôi bán những đặc sản đến từ TP. Đà Lạt</h3>
+							<div class="row chungchi-row">
+								<div class="col-lg-6">
+									<ul class="list-dot">
+										<li>100% nguyên liệu tự nhiên</li>
+										<li>Không chất bảo quản</li>
+										<li>100% nhập từ Đà Lạt</li>
+										<li>Giá phải chăng</li>
+										<li>Thơm ngon - bổ dưỡng</li>
+									</ul>
+								</div>
+								<div class="col-lg-6">
+									<ul class="list-dot">
+										<li>Hoa quả sấy</li>
+										<li>Tinh dầu thiên nhiên</li>
+										<li>Bánh tráng nướng</li>
+										<li>Bánh căn</li>
+										<li>Kem bơ</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="about-item">
+							<img src="/assets/images/about.png" alt="">
+						</div>
+					</div>
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+</main>
+
+
+
+
+
+
+<?php
+/**
+ * Footer
+ */
+?>
+
+<?php include_once $_SERVER['DOCUMENT_ROOT'].'/src/inc/footer.php'; ?>
+
+</div>
+
+<!-- Javascript -->
+
+
+<?php include_once $_SERVER['DOCUMENT_ROOT'].'/'.DIRNAME.'/src/inc/js.php';?>
+
+<!-- /Javascript -->
+</body>
+</html>
