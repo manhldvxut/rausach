@@ -4,7 +4,7 @@
 			<div class="row header-top-row">
 				<div class="col-lg-4">
 					<div class="header-top-txt">
-						<a href="">
+						<a href="/">
 							<span class="txt-big">
 								Ludala
 							</span>
@@ -41,10 +41,10 @@
 	<div class="nav-menu">
 		<div class="container">
 			<ul>
-				<li><h1 class="logo"><a href=""><img src="/assets/images/logo.png" alt=""></a></h1></li>
-				<li><a href="">Thông tin về Ludala <span>Ludala About</span></a></li>
+				<li><h1 class="logo"><a href="/"><img src="/assets/images/logo.png" alt=""></a></h1></li>
+				<li><a href="/about">Thông tin về Ludala <span>Ludala About</span></a></li>
 				<li class="hover-submenu">
-					<a href="">Gian hàng 
+					<a href="/collection/all">Gian hàng 
 						<span>Collection</span>
 						<div class="icon-down">
 							<img src="/assets/images/arrow.svg" alt="">
@@ -79,8 +79,8 @@
 						</div>
 					</div>
 				</li>
-				<li><a href="">Tin tức <span>News</span> </a></li>
-				<li><a href="">Liên hệ <span>Contact</span></a></li>
+				<li><a href="/news">Tin tức <span>News</span> </a></li>
+				<li><a href="/contact">Liên hệ <span>Contact</span></a></li>
 			</ul>
 		</div>
 	</div>	

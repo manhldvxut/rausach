@@ -27,3 +27,10 @@ $(".product-slider").slick({
     }
   }]
 });
+
+
+// stop video
+$('.rando__movie .btn-close').click(function(){
+    console.log(2);
+    $('.yvideo').attr('src', $('.yvideo').attr('src'));
+})

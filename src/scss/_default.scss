@@ -275,11 +275,13 @@ h2{
 
 // time
 .time{
-  font-family: Arial;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
-  @include fontSize(12px);
+  @include fontSize(13px);
   letter-spacing: 0;
   line-height: 1.5;
+  text-align: right;
+  margin-top: 20px;
 }
 .btn{
   font-family: $font_en;

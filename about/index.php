@@ -64,7 +64,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 							</div>
 							<div class="modal-body">
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/CxrI1qZmtEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<iframe class="yvideo" width="560" height="315" src="https://www.youtube.com/embed/CxrI1qZmtEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
 						</div>
 					</div>
