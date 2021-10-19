@@ -34,3 +34,28 @@ $('.rando__movie .btn-close').click(function(){
     console.log(2);
     $('.yvideo').attr('src', $('.yvideo').attr('src'));
 })
+
+
+ // scroll to top
+ $(window).scroll(function() {
+  if ($(this).scrollTop() > 200) {
+      $('.scroll-top').fadeIn();
+      $('.scroll-top').css('opacity', 1);
+  } else {
+      $('.scroll-top').fadeOut();
+  }
+});
+
+// set accLink tradePage
+// set accLink tradePage
+$('.scroll-top a').click(function(e) {
+  e.preventDefault();
+  var speed = 400;
+  var href = $(this).attr("href");
+  var target = $(href == "#" || href == "" ? 'html' : href);
+  var position = target.offset().top -200;
+  $('body,html').animate({
+      scrollTop: position
+  }, speed, 'swing');
+  return false;
+});
