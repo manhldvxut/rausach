@@ -67,7 +67,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 				<p class="text-center mb-5">Ludala – Nông sản Đà Lạt. <br>
 				Chúng tôi là nơi chuyên cung cấp món ăn, sản phẩm, đặc sản Đà Lạt chất lượng cao tại TP. Vinh. </p>
 				<div class="row">
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4 col-4">
 						<div class="list-icon-product">
 							<a href="">
 								<img src="/assets/images/icon-rau.png" alt="">
@@ -75,7 +75,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4 col-4">
 						<div class="list-icon-product">
 							<a href="">
 								<img src="/assets/images/icon-cafe.png" alt="">
@@ -83,7 +83,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4 col-4">
 						<div class="list-icon-product">
 							<a href="">
 								<img src="/assets/images/icon-dacsan.png" alt="">
@@ -103,7 +103,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 			<div class="product__rau product__item">
 				<h3 class="rau">Rau - Củ - Quả</h3>
 				<div class="row m-0 product-slider">
-					<div class="col-md-3 p-0 product-col">
+					<div class="col-lg-3 col-md-4 col-6 p-0 product-col">
 						<div class="item-prd text-center">
 							<div class="avarta">
 								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
@@ -118,7 +118,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 p-0 product-col">
+					<div class="col-lg-3 col-md-4 col-6 p-0 product-col">
 						<div class="item-prd text-center">
 							<div class="avarta">
 								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
@@ -133,7 +133,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 p-0 product-col">
+					<div class="col-lg-3 col-md-4 col-6 p-0 product-col">
 						<div class="item-prd text-center">
 							<div class="avarta">
 								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
@@ -148,7 +148,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 p-0 product-col">
+					<div class="col-lg-3 col-md-4 col-6 p-0 product-col">
 						<div class="item-prd text-center">
 							<div class="avarta">
 								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
@@ -163,7 +163,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 p-0 product-col">
+					<div class="col-lg-3 col-md-4 col-6 p-0 product-col">
 						<div class="item-prd text-center">
 							<div class="avarta">
 								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
@@ -178,13 +178,29 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</div>
 						</div>
 					</div>
+					<div class="col-lg-3 col-md-4 col-6 p-0 product-col">
+						<div class="item-prd text-center">
+							<div class="avarta">
+								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
+								src="/assets/images/rau2.png"></a>
+								<div class="avr-abs"><span>MUA NGAY</span></div>
+							</div>
+							<div class="info">
+								<h4><a href="">Dưa leo baby khay 500g</a></h4>
+								<p><del aria-hidden="true"><span class="woocommerce-Price-amount amount"></span></del> 
+								<ins><span class="woocommerce-Price-amount amount"><bdi>20,000<span class="woocommerce-Price-currencySymbol">VND</span></bdi>
+							</span></ins></p>
+							</div>
+						</div>
+					</div>
+
 				</div>
 				<div class="tempBtn"><a href="/">Xem thêm</a></div>
 			</div>
 			<div class="product__coffe product__item">
 				<h3 class="cafe">Cafe - Đồ ăn vặt</h3>
 				<div class="row m-0 product-slider">
-					<div class="col-md-3 p-0 product-col">
+					<div class="col-md-3 col-md-4 col-6 p-0 product-col">
 						<div class="item-prd text-center">
 							<div class="avarta">
 								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
@@ -199,7 +215,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 p-0 product-col">
+					<div class="col-md-3 col-md-4 col-6 p-0 product-col">
 						<div class="item-prd text-center">
 							<div class="avarta">
 								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
@@ -214,7 +230,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 p-0 product-col">
+					<div class="col-md-3 col-md-4 col-6 p-0 product-col">
 						<div class="item-prd text-center">
 							<div class="avarta">
 								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
@@ -229,7 +245,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 p-0 product-col">
+					<div class="col-md-3 col-md-4 col-6 p-0 product-col">
 						<div class="item-prd text-center">
 							<div class="avarta">
 								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
@@ -244,28 +260,13 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 p-0 product-col">
-						<div class="item-prd text-center">
-							<div class="avarta">
-								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
-								src="/assets/images/cafe2.jpg"></a>
-								<div class="avr-abs"><span>MUA NGAY</span></div>
-							</div>
-							<div class="info">
-								<h4><a href="">Bánh tráng trộn free ship</a></h4>
-								<p><del aria-hidden="true"><span class="woocommerce-Price-amount amount"></span></del> 
-								<ins><span class="woocommerce-Price-amount amount"><bdi>20,000<span class="woocommerce-Price-currencySymbol">VND</span></bdi>
-							</span></ins></p>
-							</div>
-						</div>
-					</div>
 				</div>
 				<div class="tempBtn"><a href="/">Xem thêm</a></div>
 			</div>
 			<div class="product__dacsan product__item">
 				<h3 class="dacsan">Đặc sản Đà Lạt</h3>
 				<div class="row m-0 product-slider">
-					<div class="col-md-3 p-0 product-col">
+					<div class="col-md-3 col-md-4 col-6 p-0 product-col">
 						<div class="item-prd text-center">
 							<div class="avarta">
 								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
@@ -280,7 +281,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 p-0 product-col">
+					<div class="col-md-3 col-md-4 col-6 p-0 product-col">
 						<div class="item-prd text-center">
 							<div class="avarta">
 								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
@@ -295,7 +296,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 p-0 product-col">
+					<div class="col-md-3 col-md-4 col-6 p-0 product-col">
 						<div class="item-prd text-center">
 							<div class="avarta">
 								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
@@ -310,7 +311,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 p-0 product-col">
+					<div class="col-md-3 col-md-4 col-6 p-0 product-col">
 						<div class="item-prd text-center">
 							<div class="avarta">
 								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
@@ -319,21 +320,6 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</div>
 							<div class="info">
 								<h4><a href="">Product test</a></h4>
-								<p><del aria-hidden="true"><span class="woocommerce-Price-amount amount"></span></del> 
-								<ins><span class="woocommerce-Price-amount amount"><bdi>20,000<span class="woocommerce-Price-currencySymbol">VND</span></bdi>
-							</span></ins></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 p-0 product-col">
-						<div class="item-prd text-center">
-							<div class="avarta">
-								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
-								src="/assets/images/dacsan01.jpg"></a>
-								<div class="avr-abs"><span>MUA NGAY</span></div>
-							</div>
-							<div class="info">
-								<h4><a href="">Hồng Đà Lạt</a></h4>
 								<p><del aria-hidden="true"><span class="woocommerce-Price-amount amount"></span></del> 
 								<ins><span class="woocommerce-Price-amount amount"><bdi>20,000<span class="woocommerce-Price-currencySymbol">VND</span></bdi>
 							</span></ins></p>
@@ -392,6 +378,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 						</div>
 					</div>
 				</div>
+				<div class="tempBtn"><a href="/">Xem thêm</a></div>
 			</div>
 		</div>
 	</div>

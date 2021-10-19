@@ -30,7 +30,7 @@
 								<a href=""><img src="/assets/images/icon-inst.svg" alt=""></a>
 							</li>
 							<li class="cart">
-								<a href=""><img src="/assets/images/cart.svg" alt=""></a>
+								<a href="/cart"><img src="/assets/images/cart.svg" alt=""></a>
 							</li>
 						</ul>
 					</div>

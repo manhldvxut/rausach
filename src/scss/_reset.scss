@@ -209,7 +209,7 @@ h2 {
   position: relative;
   z-index: 2;
   @include media-sp{
-    @include fontSize(34px);
+    @include fontSize(20px);
   }
 }
 h3 {

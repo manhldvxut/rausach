@@ -21,10 +21,8 @@ $(".product-slider").slick({
   prevArrow: '<div class="prev"><span></span></div>',
   nextArrow: '<div class="next"><span></span></div>',
   responsive: [{
-    breakpoint: 960,
-    settings: {
-      slidesToShow: 1,
-    }
+    breakpoint: 1023,
+    settings: "unslick"
   }]
 });
 
