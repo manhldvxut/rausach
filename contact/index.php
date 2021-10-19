@@ -54,13 +54,14 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 				<h3 class="icon-lienhe">Liên hệ <span>contact</span></h3>
 				<div class="row lienhe-row">
 					<div class="col-lg-6">
-						<img src="/assets/images/contact.jpg" alt="">
+						<img src="/assets/images/contact.png" alt="">
 					</div>
 					<div class="col-lg-6">
 						<div class="lienhe-info">
-							<h3 class="mb-5"><b>Vui lòng liên hệ với chúng tôi qua địa chỉ, thông tin bên dưới để được hướng dẫn cụ thể</b></h3>
+							<h3 class="mb-5"><b>Vui lòng liên hệ với chúng tôi để được hướng dẫn cụ thể</b></h3>
 							<ul class="list-contact">
-								<li>Điện thoại: 035 735 5288</li>
+								<li>Món ngon Đà Lạt: <a href="tel: 0357 355 288">0357 355 288</a></li>
+								<li>Nông sản Đà Lạt: <a href="tel: 0968 905 775">0968 905 775</a></li>
 								<li>Email : ludala.monngondalat@gmail.com</li>
 								<li>Địa chỉ : Số 30, đường Lê Hoàn, Thành Phố Vinh, Nghệ An</li>
 							</ul>

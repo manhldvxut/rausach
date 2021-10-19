@@ -80,7 +80,8 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							<p>
 								<b>Địa chỉ:</b> 30 Lê Hoàn, Hưng Phúc, Thành phố Vinh, Nghệ An.
 							</p>
-							<p><b>SĐT: </b>+84 357 355 288</p>
+							<p><b>Món ngon Đà Lạt: </b><a href="tel: 0357 355 288">0357 355 288</a></p>
+							<p><b>Nông sản Đà Lạt: </b><a href="tel: 0968 905 775<">0968 905 775<</a>/p>
 						</div>
 						<div class="chungchi">
 							<h3>Chúng tôi bán những đặc sản đến từ TP. Đà Lạt</h3>
@@ -96,11 +97,11 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 								</div>
 								<div class="col-lg-6">
 									<ul class="list-dot">
+										<li>Nông sản rau củ</li>
+										<li>Kem bơ</li>
+										<li>Bánh tráng nướng</li>
 										<li>Hoa quả sấy</li>
 										<li>Tinh dầu thiên nhiên</li>
-										<li>Bánh tráng nướng</li>
-										<li>Bánh căn</li>
-										<li>Kem bơ</li>
 									</ul>
 								</div>
 							</div>
