@@ -4262,6 +4262,14 @@ layout
   background: url("../images/icon-news.svg") no-repeat;
 }
 
+.news .tempBtn {
+  margin-top: 40px;
+}
+
+.news .tempBtn a {
+  background: url("../images/btnBg02.svg") no-repeat;
+}
+
 .avarta {
   position: relative;
 }
