@@ -260,6 +260,21 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</div>
 						</div>
 					</div>
+					<div class="col-md-3 col-md-4 col-6 p-0 product-col">
+						<div class="item-prd text-center">
+							<div class="avarta">
+								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
+								src="/assets/images/cafe3.jpg"></a>
+								<div class="avr-abs"><span>MUA NGAY</span></div>
+							</div>
+							<div class="info">
+								<h4><a href="">Product test</a></h4>
+								<p><del aria-hidden="true"><span class="woocommerce-Price-amount amount"></span></del> 
+								<ins><span class="woocommerce-Price-amount amount"><bdi>20,000<span class="woocommerce-Price-currencySymbol">VND</span></bdi>
+							</span></ins></p>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="tempBtn"><a href="/">Xem thêm</a></div>
 			</div>
@@ -316,6 +331,21 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							<div class="avarta">
 								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
 								src="/assets/images/dacsan02.jpg"></a>
+								<div class="avr-abs"><span>MUA NGAY</span></div>
+							</div>
+							<div class="info">
+								<h4><a href="">Product test</a></h4>
+								<p><del aria-hidden="true"><span class="woocommerce-Price-amount amount"></span></del> 
+								<ins><span class="woocommerce-Price-amount amount"><bdi>20,000<span class="woocommerce-Price-currencySymbol">VND</span></bdi>
+							</span></ins></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-md-4 col-6 p-0 product-col">
+						<div class="item-prd text-center">
+							<div class="avarta">
+								<a href="?add-to-cart=12"><img class="img-fluid" alt="Dưa leo baby khay 500g" 
+								src="/assets/images/dacsan01.jpg"></a>
 								<div class="avr-abs"><span>MUA NGAY</span></div>
 							</div>
 							<div class="info">
@@ -386,32 +416,32 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 	<div class="instagram">
 		<h2 class="text-center">instagram</h2>
 		<div class="row m-0">
-			<div class="col-lg-2 p-0">
+			<div class="col-lg-2 col-md-4 col-4 p-0">
 				<a href="">
 					<img src="/assets/images/inst01.jpg" alt="">
 				</a>
 			</div>
-			<div class="col-lg-2 p-0">
+			<div class="col-lg-2 col-md-4 col-4 p-0">
 				<a href="">
 					<img src="/assets/images/inst02.jpg" alt="">
 				</a>
 			</div>
-			<div class="col-lg-2 p-0">
+			<div class="col-lg-2 col-md-4 col-4 p-0">
 				<a href="">
 					<img src="/assets/images/inst03.jpg" alt="">
 				</a>
 			</div>
-			<div class="col-lg-2 p-0">
+			<div class="col-lg-2 col-md-4 col-4 p-0">
 				<a href="">
 					<img src="/assets/images/inst04.jpg" alt="">
 				</a>
 			</div>
-			<div class="col-lg-2 p-0">
+			<div class="col-lg-2 col-md-4 col-4 p-0">
 				<a href="">
 					<img src="/assets/images/inst05.jpg" alt="">
 				</a>
 			</div>
-			<div class="col-lg-2 p-0">
+			<div class="col-lg-2 col-md-4 col-4 p-0">
 				<a href="">
 					<img src="/assets/images/inst06.jpg" alt="">
 				</a>

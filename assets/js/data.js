@@ -1,17 +1,15 @@
 var intViewportWidth = window.innerWidth;
 
 if(intViewportWidth < 769){
-  $(".news-row").slick({
-    autoplay: true,
-    autoplaySpeed: 5000,
-    speed: 800,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    infinite: true,
-    dots: false,
-    prevArrow: '<div class="prev"><span>PREV</span></div>',
-    nextArrow: '<div class="next"><span>NEXT</span></div>'
-  });
+  // $(".news-row").slick({
+  //   autoplay: false,
+  //   autoplaySpeed: 5000,
+  //   speed: 800,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  //   infinite: true,
+  //   variableHeight: true
+  // });
 
 }
 
@@ -75,3 +73,4 @@ $('.scroll-top a').click(function(e) {
   }, speed, 'swing');
   return false;
 });
+

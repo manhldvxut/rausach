@@ -189,8 +189,8 @@
 }
 .footer{
 	padding: 80px 75px 40px;
-	@include media-si{
-		padding: 0;
+	@include media-sp{
+		padding: 30px 15px;
 	}
 	.logo{
 		max-width: 193px;

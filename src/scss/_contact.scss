@@ -179,7 +179,7 @@ textarea{
             color: red;
             padding: 0px 4px;
             border: 1px solid red;
-            line-height: 1.4;
+            line-height: 1.1;
             height: 17px;
         }
     }
@@ -465,6 +465,9 @@ textarea{
         display: inline-flex;
         align-items: center;
         border-radius: 10px;
+        @include media-sp{
+            height: 45px;
+        }
         &:hover{
             background:#fff;
             color: #E86E9D;

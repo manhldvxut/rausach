@@ -53,7 +53,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 			<div class="container">
 				<h3 class="icon-news-content">Cập nhập tin tức từ Ludala để nhận chương trình khuyến mãi</h3>
 				<div class="row">
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4 col-6">
 						<div class="news-body">
 							<a href="">
 								<img src="/assets/images/new01.jpg" alt="">
@@ -67,7 +67,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4 col-6">
 						<div class="news-body">
 							<a href="">
 								<img src="/assets/images/new03.jpg" alt="">
@@ -81,7 +81,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4 col-6">
 						<div class="news-body">
 							<a href="">
 								<img src="/assets/images/new02.jpg" alt="">
@@ -95,7 +95,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4 col-6">
 						<div class="news-body">
 							<a href="">
 								<img src="/assets/images/new01.jpg" alt="">
@@ -109,7 +109,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4 col-6">
 						<div class="news-body">
 							<a href="">
 								<img src="/assets/images/new02.jpg" alt="">
@@ -123,7 +123,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-4 col-6">
 						<div class="news-body">
 							<a href="">
 								<img src="/assets/images/new03.jpg" alt="">
