@@ -1,3 +1,77 @@
+
+// radio
+.radio-item{
+    label{
+        padding-left: 45px;
+        padding-top: 5px;
+    }
+    [type="radio"]:checked,
+    [type="radio"]:not(:checked) {
+        position: absolute;
+        left: -9999px;
+    }
+    [type="radio"]:checked + label,
+    [type="radio"]:not(:checked) + label
+    {
+        position: relative;
+        cursor: pointer;
+        line-height: 20px;
+        display: inline-block;
+        color: #666;
+    }
+    [type="radio"]:checked + label:before,
+    [type="radio"]:not(:checked) + label:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #ddd;
+        border-radius: 100%;
+        background: #44302E;
+    }
+    [type="radio"]:not(:checked) + label:before {
+        background-color: transparent;
+    }
+    [type="radio"]:checked + label:after,
+    [type="radio"]:not(:checked) + label:after {
+        content: '';
+        width: 12px;
+        height: 12px;
+        background: #fff;
+        position: absolute;
+        top: 9px;
+        left: 9px;
+        border-radius: 100%;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    [type="radio"]:not(:checked) + label:after {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    [type="radio"]:checked + label:after {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+        
+}
+textarea{
+    outline: none;
+}
+
+.p-catalog--form-listChoice {
+    display: flex;
+    align-items: center;
+    .radio-item{
+        margin-right: 18px;
+    }
+}
+
+
 .contact{
     .contact__step{
         margin-top: 87px;
@@ -134,6 +208,7 @@
             border-color: #D3D3CF;
             border-radius: 4px;
             height: 50px;
+            padding-left: 13px;
             &::placeholder{
                 color: #434242;
                 opacity: 1;
@@ -366,4 +441,46 @@
 .contact__input .error{
     background-color: rgb(252, 243, 243);
     border-color: rgb(242, 194, 202);
+}
+
+.btn-c {
+    background-color: #fff;
+    border: 1px solid #D3D3CF;
+    border-radius: 8px;
+    color: #44302E;
+    font-size: 1rem;
+    letter-spacing: 0.8px;
+    line-height: 1.4;
+    padding: 24px;
+    width: 320px;
+    position: relative;
+    transition: .3s all;
+    &.ping{
+        max-width: 600px;
+        width: 100%;
+        background-color: #E86E9D;
+        color: #fff;
+        border-color: #E86E9D;
+        height: 80px;
+        display: inline-flex;
+        align-items: center;
+        border-radius: 10px;
+        &:hover{
+            background:#fff;
+            color: #E86E9D;
+            border: 1px solid #E86E9D;
+        }
+    }
+}
+
+.contact-btn {
+    margin-top: 50px;
+    .ping{
+        max-width: 460px;
+        border-radius: 80px;
+        justify-content: center;
+        margin-bottom: 15px;
+        font-family: 'Josefin Sans';
+        @include fontSize(20px);
+    }
 }
