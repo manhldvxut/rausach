@@ -49,7 +49,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 				<h1>Tin tức Ludala</h1>
 			</div>
 		</div>
-		<div class="news">
+		<div class="news detail-news">
 			<div class="container">
 				<h3 class="icon-news-content">Cập nhập tin tức từ Ludala để nhận chương trình khuyến mãi</h3>
 				<div class="row">

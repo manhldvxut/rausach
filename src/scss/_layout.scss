@@ -596,6 +596,15 @@
 	}
 }
 
+.detail-news{
+	> a > img{
+		@include media-sp{
+			width: 195px;
+			height: 130px;
+			object-fit: cover;
+		}
+	}
+}
 .news{
 	margin-top: 80px;
 	h2{
@@ -608,11 +617,7 @@
 		@include media-sp{
 			padding: 0;
 		}
-		> a > img{
-			width: 195px;
-			height: 130px;
-			object-fit: cover;
-		}
+		
 	}
 	&-col{
 		border: 1px solid #cdcccc;

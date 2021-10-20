@@ -4296,6 +4296,15 @@ layout
   z-index: 20;
 }
 
+@media (max-width: 767px) {
+  .detail-news > a > img {
+    width: 195px;
+    height: 130px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+}
+
 .news {
   margin-top: 80px;
 }
@@ -4314,13 +4323,6 @@ layout
   .news-body {
     padding: 0;
   }
-}
-
-.news-body > a > img {
-  width: 195px;
-  height: 130px;
-  -o-object-fit: cover;
-  object-fit: cover;
 }
 
 .news-col {
