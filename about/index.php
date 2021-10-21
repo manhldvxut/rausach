@@ -86,7 +86,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 						<div class="chungchi">
 							<h3>Chúng tôi bán những đặc sản đến từ TP. Đà Lạt</h3>
 							<div class="row chungchi-row">
-								<div class="col-lg-6">
+								<div class="col-lg-6 col-md-6">
 									<ul class="list-dot">
 										<li>100% nguyên liệu tự nhiên</li>
 										<li>Không chất bảo quản</li>
@@ -95,7 +95,7 @@ $page_shareurl = 'https://'.STORE_NAME.'.co.jp/';
 										<li>Thơm ngon - bổ dưỡng</li>
 									</ul>
 								</div>
-								<div class="col-lg-6">
+								<div class="col-lg-6 col-md-6">
 									<ul class="list-dot">
 										<li>Nông sản rau củ</li>
 										<li>Kem bơ</li>

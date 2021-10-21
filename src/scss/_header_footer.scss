@@ -2,7 +2,7 @@
 
 .header{
 	position: relative;
-	z-index: 10;
+	z-index: 999;
 	transition: 0.5s all;
 	@include media-si{
 		position: fixed;

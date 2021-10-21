@@ -20,21 +20,15 @@ body{
   .wrapper{
     position: relative;
     transition: 0.3s all;
-    &:before{
-      transition: 0.3s all;
-      position: absolute;
-      content: "";
-      width: 0;
-      height: 100%;
-      background-color: #efefef;
-      opacity: .7;
-      top: 0;
-      left: 0;
-      right: 0;
-      margin: auto;
-      z-index: 7;
-    }
+    
   }
+}
+
+@media (min-width: 576px){
+.container, .container-sm {
+    max-width: 540px;
+    max-width: 100%;
+}
 }
 
 body.active{
@@ -58,6 +52,9 @@ body, html{
 
 .main-contents{
   overflow: hidden;
+  @include media-si{
+    margin-top: 100px;
+  }
 }
 
 .sp_only{
