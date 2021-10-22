@@ -1485,3 +1485,34 @@
 		}
 	}
 }
+
+
+// instagram
+
+.instagram #sbi_images {
+    display: flex;
+    align-items: center;
+}
+
+#sb_instagram.sbi_col_1 #sbi_images .sbi_item {
+    padding: 0 !important;
+}
+
+
+.instagram .sbi_header_text.sbi_no_bio {
+    display: none;
+}
+
+.instagram .sbi_header_img {
+    display: none;
+}
+
+.instagram  #sbi_images{
+    padding: 0 !important;
+}
+.instagram  #sb_instagram{
+	padding: 0 !important;
+}
+.instagram #sbi_load{
+	display: none;
+}
